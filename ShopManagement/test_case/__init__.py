@@ -8,7 +8,8 @@ from test_case import test01_home
 from test_case import test02_member
 from test_case import test03_redpoint
 from test_case import test04_redpacket
+from test_case import test05_redstorage
 from package import common
 
 #导入测试文件
-import test01_home,test02_member,test03_redpoint,test04_redpacket
+import test01_home,test02_member,test03_redpoint,test04_redpacket,test05_redstorage

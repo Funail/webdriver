@@ -11,7 +11,7 @@ import HTMLTestRunner
 # 导入公共的类
 from package import common
 from package import function
-from package import member
+from package import m1_member
 from data import testdata
 
 
@@ -34,26 +34,26 @@ class TestMember(unittest.TestCase):
         time.sleep(2)
 
         # 全部门店会员数判断
-        member.member_shopname_filter(self.driver,u"全部")
+        m1_member.member_shopname_filter(self.driver, u"全部")
         time.sleep(2)
-        self.assertEqual(member.get_member_shopname_count(self.driver),20)
+        self.assertEqual(m1_member.get_member_shopname_count(self.driver), 20)
 
         # 分店门店会员数判断
-        member.member_shopname_filter(self.driver,u"测试员工测试")
+        m1_member.member_shopname_filter(self.driver, u"测试员工测试")
         time.sleep(2)
-        self.assertEqual(member.get_member_shopname_count(self.driver),19)
+        self.assertEqual(m1_member.get_member_shopname_count(self.driver), 19)
         self.driver.refresh()
         time.sleep(2)
 
-        member.member_shopname_filter(self.driver,u"业务员:二级业务员测试无默认")
+        m1_member.member_shopname_filter(self.driver, u"业务员:二级业务员测试无默认")
         time.sleep(2)
-        self.assertEqual(member.get_member_shopname_count(self.driver),3)
+        self.assertEqual(m1_member.get_member_shopname_count(self.driver), 3)
         self.driver.refresh()
         time.sleep(2)
 
-        member.member_shopname_filter(self.driver,u"测试分店")
+        m1_member.member_shopname_filter(self.driver, u"测试分店")
         time.sleep(2)
-        self.assertEqual(member.get_member_shopname_count(self.driver), 0)
+        self.assertEqual(m1_member.get_member_shopname_count(self.driver), 0)
 
         function.logout(self.driver)
 

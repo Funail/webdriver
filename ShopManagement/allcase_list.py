@@ -12,7 +12,8 @@ def caselist():
         test01_home.TestHome,
         test02_member.TestMember,
         test03_redpoint.TestRedpoint,
-        test04_redpacket.TestRedpacket
+        test04_redpacket.TestRedpacket,
+        test05_redstorage.TestRedstorage
     ]
     print "success read case list!"
 

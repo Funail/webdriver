@@ -11,7 +11,7 @@ import HTMLTestRunner
 # 导入公共的类
 from package import common
 from package import function
-from package import member
+from package import m1_member
 from data import testdata
 
 
@@ -34,6 +34,7 @@ class TestHome(unittest.TestCase):
         # 断言判断登录后导航栏首页概览
         homepage = common.findXpath(self.driver, '/html/body/div[1]/div[1]/ul/li[1]/a').text
         self.assertEqual(homepage, "首页概览")
+        function.logout(self.driver)
 
     def test02_menu(self):
 

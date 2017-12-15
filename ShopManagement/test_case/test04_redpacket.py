@@ -11,7 +11,7 @@ import HTMLTestRunner
 # 导入公共的类
 from package import common
 from package import function
-from package import redpacket
+from package import m3_redpacket
 from data import testdata
 
 
@@ -34,10 +34,12 @@ class TestRedpacket(unittest.TestCase):
 
         if common.findCss(self.driver,"#memberredpacket > div.el-table__body-wrapper > table > tbody > tr > td.el-table_1_column_1 > div"):
             creat_time1 = common.findCss(self.driver,"#memberredpacket > div.el-table__body-wrapper > table > tbody > tr > td.el-table_1_column_1 > div").text
-        redpacket.creat_redpacket_common(self.driver,testdata.dict3)
+        m3_redpacket.creat_redpacket_common(self.driver, testdata.dict3)
         time.sleep(2)
         creat_time2 = common.findCss(self.driver,"#memberredpacket > div.el-table__body-wrapper > table > tbody > tr > td.el-table_1_column_1 > div").text
         self.assertTrue(creat_time1 < creat_time2)
+
+        function.logout(self.driver)
 
 
     def test02_creat_redpacket_payment(self):
@@ -49,10 +51,12 @@ class TestRedpacket(unittest.TestCase):
 
         if common.findCss(self.driver,"#memberredpacket > div.el-table__body-wrapper > table > tbody > tr > td.el-table_1_column_1 > div"):
             creat_time1 = common.findCss(self.driver,"#memberredpacket > div.el-table__body-wrapper > table > tbody > tr > td.el-table_1_column_1 > div").text
-        redpacket.creat_redpacket_payment(self.driver,testdata.dict4)
+        m3_redpacket.creat_redpacket_payment(self.driver, testdata.dict4)
         time.sleep(2)
         creat_time2 = common.findCss(self.driver,"#memberredpacket > div.el-table__body-wrapper > table > tbody > tr > td.el-table_1_column_1 > div").text
         self.assertTrue(creat_time1 < creat_time2)
+
+        function.logout(self.driver)
 
 
     def test03_creat_redpacket_share(self):
@@ -64,10 +68,12 @@ class TestRedpacket(unittest.TestCase):
 
         if common.findCss(self.driver,"#memberredpacket > div.el-table__body-wrapper > table > tbody > tr > td.el-table_1_column_1 > div"):
             creat_time1 = common.findCss(self.driver,"#memberredpacket > div.el-table__body-wrapper > table > tbody > tr > td.el-table_1_column_1 > div").text
-        redpacket.creat_redpacket_share(self.driver,testdata.dict5)
+        m3_redpacket.creat_redpacket_share(self.driver, testdata.dict5)
         time.sleep(2)
         creat_time2 = common.findCss(self.driver,"#memberredpacket > div.el-table__body-wrapper > table > tbody > tr > td.el-table_1_column_1 > div").text
         self.assertTrue(creat_time1 < creat_time2)
+
+        function.logout(self.driver)
 
 
     def test04_end_redpacket(self):
@@ -77,7 +83,7 @@ class TestRedpacket(unittest.TestCase):
         time.sleep(2)
         function.open_menu(self.driver, u"会员功能", u"会员红包")
 
-        redpacket.end_redpacket(self.driver)
+        m3_redpacket.end_redpacket(self.driver)
         end_redpoint_status = common.findCss(self.driver,"#memberredpacket > div.el-table__body-wrapper > table > tbody > tr:nth-child(1) > td.el-table_1_column_4 > div").text
         self.assertEqual(end_redpoint_status,u"已失效")
 

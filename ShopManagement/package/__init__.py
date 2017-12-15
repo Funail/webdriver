@@ -6,8 +6,8 @@ sys.path.append("\package")
 
 import common
 import function
-import member
-import redpoint
+import m1_member
+import m2_redpoint
 import send_mail
 
 

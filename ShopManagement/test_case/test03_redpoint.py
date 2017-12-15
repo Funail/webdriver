@@ -11,8 +11,8 @@ import HTMLTestRunner
 # 导入公共的类
 from package import common
 from package import function
-from package import member
-from package import redpoint
+from package import m1_member
+from package import m2_redpoint
 from data import testdata
 
 
@@ -33,15 +33,15 @@ class TestRedpoint(unittest.TestCase):
         time.sleep(2)
         function.open_menu(self.driver, u"会员功能", u"会员集点")
 
-        redpoint.redpoint_status(self.driver,u"进行中")
+        m2_redpoint.redpoint_status(self.driver, u"进行中")
         time.sleep(1)
-        if redpoint.get_redpoint_count(self.driver) ==1 :
+        if m2_redpoint.get_redpoint_count(self.driver) ==1 :
             self.driver.refresh()
-            redpoint.end_redpoint(self.driver)
+            m2_redpoint.end_redpoint(self.driver)
         self.driver.refresh()
         time.sleep(2)
 
-        redpoint.creat_redpoint(self.driver,testdata.dict1)
+        m2_redpoint.creat_redpoint(self.driver, testdata.dict1)
         time.sleep(2)
 
         # 判断创建的集点活动
@@ -62,35 +62,35 @@ class TestRedpoint(unittest.TestCase):
         function.open_menu(self.driver,u"会员功能",u"会员集点")
 
         # 未开始
-        redpoint.redpoint_status(self.driver,u"未开始")
+        m2_redpoint.redpoint_status(self.driver, u"未开始")
         time.sleep(1)
-        self.assertEqual(redpoint.get_redpoint_count(self.driver),0)
+        self.assertEqual(m2_redpoint.get_redpoint_count(self.driver), 0)
         self.driver.refresh()
         time.sleep(2)
 
         # 进行中
-        redpoint.redpoint_status(self.driver,u"进行中")
+        m2_redpoint.redpoint_status(self.driver, u"进行中")
         time.sleep(1)
-        self.assertEqual(redpoint.get_redpoint_count(self.driver),1)
+        self.assertEqual(m2_redpoint.get_redpoint_count(self.driver), 1)
         self.driver.refresh()
         time.sleep(2)
 
         # 已结束
-        redpoint.redpoint_status(self.driver,u"已结束")
+        m2_redpoint.redpoint_status(self.driver, u"已结束")
         time.sleep(1)
-        self.assertEqual(redpoint.get_redpoint_count(self.driver),4)
+        self.assertEqual(m2_redpoint.get_redpoint_count(self.driver), 4)
         self.driver.refresh()
         time.sleep(2)
 
         # 全部活动
-        redpoint.redpoint_status(self.driver,u"已终止")
+        m2_redpoint.redpoint_status(self.driver, u"已终止")
         time.sleep(1)
-        end_redpoint_count = redpoint.get_redpoint_count(self.driver)
+        end_redpoint_count = m2_redpoint.get_redpoint_count(self.driver)
         self.driver.refresh()
         time.sleep(2)
-        redpoint.redpoint_status(self.driver,u"全部")
+        m2_redpoint.redpoint_status(self.driver, u"全部")
         time.sleep(1)
-        self.assertEqual(redpoint.get_redpoint_count(self.driver), end_redpoint_count+5)
+        self.assertEqual(m2_redpoint.get_redpoint_count(self.driver), end_redpoint_count + 5)
 
         function.logout(self.driver)
 
@@ -101,31 +101,31 @@ class TestRedpoint(unittest.TestCase):
         time.sleep(2)
         function.open_menu(self.driver, u"会员功能", u"会员集点")
 
-        redpoint.redpoint_status(self.driver, u"已结束")
-        redpoint.redpoint_shopname_filter(self.driver, u"测试员工测试")
+        m2_redpoint.redpoint_status(self.driver, u"已结束")
+        m2_redpoint.redpoint_shopname_filter(self.driver, u"测试员工测试")
         time.sleep(1)
-        self.assertEqual(redpoint.get_redpoint_shopname_count(self.driver),3)
+        self.assertEqual(m2_redpoint.get_redpoint_shopname_count(self.driver), 3)
         self.driver.refresh()
         time.sleep(2)
 
-        redpoint.redpoint_status(self.driver, u"已结束")
-        redpoint.redpoint_shopname_filter(self.driver, u"测试分店")
+        m2_redpoint.redpoint_status(self.driver, u"已结束")
+        m2_redpoint.redpoint_shopname_filter(self.driver, u"测试分店")
         time.sleep(1)
-        self.assertEqual(redpoint.get_redpoint_shopname_count(self.driver),1)
+        self.assertEqual(m2_redpoint.get_redpoint_shopname_count(self.driver), 1)
         self.driver.refresh()
         time.sleep(2)
 
-        redpoint.redpoint_status(self.driver, u"已结束")
-        redpoint.redpoint_shopname_filter(self.driver, u"业务员:二级业务员测试无默认")
+        m2_redpoint.redpoint_status(self.driver, u"已结束")
+        m2_redpoint.redpoint_shopname_filter(self.driver, u"业务员:二级业务员测试无默认")
         time.sleep(1)
-        self.assertEqual(redpoint.get_redpoint_shopname_count(self.driver),0)
+        self.assertEqual(m2_redpoint.get_redpoint_shopname_count(self.driver), 0)
         self.driver.refresh()
         time.sleep(2)
 
-        redpoint.redpoint_status(self.driver, u"已结束")
-        redpoint.redpoint_shopname_filter(self.driver, u"全部")
+        m2_redpoint.redpoint_status(self.driver, u"已结束")
+        m2_redpoint.redpoint_shopname_filter(self.driver, u"全部")
         time.sleep(1)
-        self.assertEqual(redpoint.get_redpoint_shopname_count(self.driver),4)
+        self.assertEqual(m2_redpoint.get_redpoint_shopname_count(self.driver), 4)
         self.driver.refresh()
         time.sleep(2)
 
@@ -139,7 +139,7 @@ class TestRedpoint(unittest.TestCase):
         time.sleep(2)
         function.open_menu(self.driver, u"会员功能", u"会员集点")
 
-        redpoint.edit_redpoint(self.driver,testdata.dict2)
+        m2_redpoint.edit_redpoint(self.driver, testdata.dict2)
         time.sleep(2)
         edit_redpoint_text = common.findCss(self.driver,"#memberredcollect > div.el-table__body-wrapper > table > tbody > tr:nth-child(1) > td.el-table_1_column_3 > div > span").text
         self.assertEqual(edit_redpoint_text,u"满5点可兑换泰迪狗一份")
@@ -154,7 +154,7 @@ class TestRedpoint(unittest.TestCase):
         time.sleep(2)
         function.open_menu(self.driver, u"会员功能", u"会员集点")
 
-        redpoint.end_redpoint(self.driver)
+        m2_redpoint.end_redpoint(self.driver)
         end_redpoint_status = common.findCss(self.driver,"#memberredcollect > div.el-table__body-wrapper > table > tbody > tr:nth-child(1) > td.el-table_1_column_4 > div").text
         self.assertEqual(end_redpoint_status,u"已终止")
 
