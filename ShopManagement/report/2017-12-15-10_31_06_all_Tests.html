@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>商户管理后台测试报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2017-12-06 18:31:24</p>
-<p class='attribute'><strong>Duration:</strong> 0:01:35.778723</p>
-<p class='attribute'><strong>Status:</strong> Pass 7 Error 1</p>
+<p class='attribute'><strong>Start Time:</strong> 2017-12-15 10:31:06</p>
+<p class='attribute'><strong>Duration:</strong> 0:04:52.692697</p>
+<p class='attribute'><strong>Status:</strong> Pass 11 Error 1</p>
 
 <p class='description'>用例执行情况</p>
 </div>
@@ -221,36 +221,52 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='passClass'>
-    <td>test_case.home.TestHome: 首页</td>
+<tr class='errorClass'>
+    <td>test_case.test01_home.TestHome: 首页</td>
     <td>2</td>
-    <td>2</td>
+    <td>1</td>
     <td>0</td>
-    <td>0</td>
+    <td>1</td>
     <td><a href="javascript:showClassDetail('c1',2)">Detail</a></td>
 </tr>
 
 <tr id='pt1.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test1_home: 首页概览</div></td>
+    <td class='none'><div class='testcase'>test01_home: 首页概览</div></td>
     <td colspan='5' align='center'>pass</td>
 </tr>
 
-<tr id='pt1.2' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test2_menu: 左侧菜单检查</div></td>
+<tr id='ft1.2' class='none'>
+    <td class='errorCase'><div class='testcase'>test02_menu: 左侧菜单检查</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
+        error</a>
 
-    <div id='div_pt1.2' class="popup_window">
+    <div id='div_ft1.2' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.2').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt1.2: 左侧菜单错误
+ft1.2: Traceback (most recent call last):
+  File "/Users/Funail/PycharmProjects/ShopManagement/test_case/test01_home.py", line 47, in test02_menu
+    function.logout(self.driver)
+  File "/Users/Funail/PycharmProjects/ShopManagement/package/function.py", line 25, in logout
+    logout_btn.click()
+  File "/Library/Python/2.7/site-packages/selenium-3.7.0-py2.7.egg/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Library/Python/2.7/site-packages/selenium-3.7.0-py2.7.egg/selenium/webdriver/remote/webelement.py", line 501, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Python/2.7/site-packages/selenium-3.7.0-py2.7.egg/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Python/2.7/site-packages/selenium-3.7.0-py2.7.egg/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+WebDriverException: Message: unknown error: Element &lt;i class="icon-ic_logout"&gt;&lt;/i&gt; is not clickable at point (1205, 25). Other element would receive the click: &lt;div class="el-loading-mask is-fullscreen el-loading-fade-enter-active el-loading-fade-enter-to" style=""&gt;...&lt;/div&gt;
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.33.506106 (8a06c39c4582fbfbab6966dbb1c38a9173bfb1a2),platform=Mac OS X 10.13.2 x86_64)
+
 
 
         </pre>
@@ -261,7 +277,7 @@ pt1.2: 左侧菜单错误
 </tr>
 
 <tr class='passClass'>
-    <td>test_case.member.TestMember: 会员管理</td>
+    <td>test_case.test02_member.TestMember: 会员管理</td>
     <td>1</td>
     <td>1</td>
     <td>0</td>
@@ -270,84 +286,77 @@ pt1.2: 左侧菜单错误
 </tr>
 
 <tr id='pt2.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test1_member_shopname: 会员管理店铺名称筛选</div></td>
+    <td class='none'><div class='testcase'>test01_member_shopname: 会员管理店铺名称筛选</div></td>
     <td colspan='5' align='center'>pass</td>
 </tr>
 
-<tr class='errorClass'>
-    <td>test_case.redpoint.TestRedpoint: 会员集点</td>
+<tr class='passClass'>
+    <td>test_case.test03_redpoint.TestRedpoint: 会员集点</td>
     <td>5</td>
-    <td>4</td>
+    <td>5</td>
     <td>0</td>
-    <td>1</td>
+    <td>0</td>
     <td><a href="javascript:showClassDetail('c3',5)">Detail</a></td>
 </tr>
 
 <tr id='pt3.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test1_redpoint_status: 会员集点活动状态筛选</div></td>
+    <td class='none'><div class='testcase'>test01_creat_redpoint: 创建集点活动</div></td>
     <td colspan='5' align='center'>pass</td>
 </tr>
 
 <tr id='pt3.2' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test2_redpoint_shopname: 会员集点店铺名称筛选</div></td>
+    <td class='none'><div class='testcase'>test02_redpoint_status: 会员集点活动状态筛选</div></td>
     <td colspan='5' align='center'>pass</td>
 </tr>
 
-<tr id='ft3.3' class='none'>
-    <td class='errorCase'><div class='testcase'>test3_creat_redpoint: 创建集点活动</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft3.3')" >
-        error</a>
-
-    <div id='div_ft3.3' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft3.3').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-ft3.3: Traceback (most recent call last):
-  File "/Users/Funail/PycharmProjects/ShopManagement/test_case/redpoint.py", line 59, in test3_creat_redpoint
-    member.creat_redpoint(self.driver,testdata.dict1)
-  File "/Users/Funail/PycharmProjects/ShopManagement/package/member.py", line 130, in creat_redpoint
-    submit_btn = driver.find_element_by_xpath("/html/body/div[1]/div[2]/div[2]/div/div[2]/div[2]/div[3]/div/span/i")
-  File "/Library/Python/2.7/site-packages/selenium-3.7.0-py2.7.egg/selenium/webdriver/remote/webdriver.py", line 365, in find_element_by_xpath
-    return self.find_element(by=By.XPATH, value=xpath)
-  File "/Library/Python/2.7/site-packages/selenium-3.7.0-py2.7.egg/selenium/webdriver/remote/webdriver.py", line 855, in find_element
-    'value': value})['value']
-  File "/Library/Python/2.7/site-packages/selenium-3.7.0-py2.7.egg/selenium/webdriver/remote/webdriver.py", line 308, in execute
-    self.error_handler.check_response(response)
-  File "/Library/Python/2.7/site-packages/selenium-3.7.0-py2.7.egg/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
-    raise exception_class(message, screen, stacktrace)
-NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div[2]/div[2]/div/div[2]/div[2]/div[3]/div/span/i"}
-  (Session info: chrome=62.0.3202.94)
-  (Driver info: chromedriver=2.33.506106 (8a06c39c4582fbfbab6966dbb1c38a9173bfb1a2),platform=Mac OS X 10.13.1 x86_64)
-
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
+<tr id='pt3.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test03_redpoint_shopname: 会员集点店铺名称筛选</div></td>
+    <td colspan='5' align='center'>pass</td>
 </tr>
 
 <tr id='pt3.4' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test4_edit_redpoint: 修改集点活动</div></td>
+    <td class='none'><div class='testcase'>test04_edit_redpoint: 修改集点活动</div></td>
     <td colspan='5' align='center'>pass</td>
 </tr>
 
 <tr id='pt3.5' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test5_end_redpoint: 停止集点活动</div></td>
+    <td class='none'><div class='testcase'>test05_end_redpoint: 停止集点活动</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr class='passClass'>
+    <td>test_case.test04_redpacket.TestRedpacket: 会员红包</td>
+    <td>4</td>
+    <td>4</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c4',4)">Detail</a></td>
+</tr>
+
+<tr id='pt4.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test01_creat_redpacket_common: 创建会员通知</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt4.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test02_creat_redpacket_payment: 创建消费返红包</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt4.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test03_creat_redpacket_share: 创建分享红包</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt4.4' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test04_end_redpacket: 终止红包活动</div></td>
     <td colspan='5' align='center'>pass</td>
 </tr>
 
 <tr id='total_row'>
     <td>Total</td>
-    <td>8</td>
-    <td>7</td>
+    <td>12</td>
+    <td>11</td>
     <td>0</td>
     <td>1</td>
     <td>&nbsp;</td>

@@ -31,10 +31,32 @@ class TestMember(unittest.TestCase):
         function.login_shanghu(self.driver, testdata.login_url, testdata.username, testdata.password)
         time.sleep(2)
         function.open_menu(self.driver,u"会员功能",u"会员管理")
+        time.sleep(2)
 
-        member.member_shopname_filter(self.driver,u"测试员工测试")
-        member.member_shopname_filter(self.driver,u"测试分店")
+        # 全部门店会员数判断
         member.member_shopname_filter(self.driver,u"全部")
+        time.sleep(2)
+        self.assertEqual(member.get_member_shopname_count(self.driver),20)
+
+        # 分店门店会员数判断
+        member.member_shopname_filter(self.driver,u"测试员工测试")
+        time.sleep(2)
+        self.assertEqual(member.get_member_shopname_count(self.driver),19)
+        self.driver.refresh()
+        time.sleep(2)
+
+        member.member_shopname_filter(self.driver,u"业务员:二级业务员测试无默认")
+        time.sleep(2)
+        self.assertEqual(member.get_member_shopname_count(self.driver),3)
+        self.driver.refresh()
+        time.sleep(2)
+
+        member.member_shopname_filter(self.driver,u"测试分店")
+        time.sleep(2)
+        self.assertEqual(member.get_member_shopname_count(self.driver), 0)
+
+        function.logout(self.driver)
+
 
     def tearDown(self):
         driver = self.driver

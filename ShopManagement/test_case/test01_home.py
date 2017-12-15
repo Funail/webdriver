@@ -41,16 +41,8 @@ class TestHome(unittest.TestCase):
         function.login_shanghu(self.driver, testdata.login_url, testdata.username, testdata.password)
         time.sleep(2)
 
-        # 菜单检查
-        function.open_menu(self.driver,u"会员功能",u"会员管理")
-        function.open_menu(self.driver,u"会员功能",u"会员集点")
-        function.open_menu(self.driver,u"会员功能",u"会员红包")
-        function.open_menu(self.driver,u"会员功能",u"会员储值")
-        function.open_menu(self.driver,u"交易管理","")
-        function.open_menu(self.driver,u"账单管理","")
-        function.open_menu(self.driver,u"公众号授权","")
-        function.open_menu(self.driver,u"账户信息","")
-        function.open_menu(self.driver,u"首页概览","")
+        self.assertEqual(function.get_menu_count(self.driver),6)
+        self.assertEqual(function.get_member_menu_count(self.driver),4)
 
         function.logout(self.driver)
 
