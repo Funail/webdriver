@@ -9,9 +9,11 @@ from test_case import *
 #用例文件列表
 def caselist():
     alltestnames=[
-        home.TestHome,
-        member.TestMember,
-        redpoint.TestRedpoint]
+        test01_home.TestHome,
+        test02_member.TestMember,
+        test03_redpoint.TestRedpoint,
+        test04_redpacket.TestRedpacket
+    ]
     print "success read case list!"
 
     return alltestnames

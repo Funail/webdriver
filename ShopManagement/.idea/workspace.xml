@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b84e4ad7-64ac-4a1b-ae99-5313c7aa873e" name="Default" comment="" />
+    <list default="true" id="b84e4ad7-64ac-4a1b-ae99-5313c7aa873e" name="Default" comment="会员红包case">
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/ui.lnf.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/log.txt" afterPath="$PROJECT_DIR$/report/log.txt" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,28 +16,40 @@
     <SUITE FILE_PATH="coverage/ShopManagement$Unittest_TestHome_test02_home2.coverage" NAME="Unittest TestHome.test02_home2 Coverage Results" MODIFIED="1512027710858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/ShopManagement$Unittest_TestRedpoint_test_redpoint_shopname.coverage" NAME="Unittest TestRedpoint.test_redpoint_shopname Coverage Results" MODIFIED="1512372132305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/ShopManagement$send_mail.coverage" NAME="send_mail Coverage Results" MODIFIED="1512556270787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/package" />
+    <SUITE FILE_PATH="coverage/ShopManagement$Unittest_TestMember_test01_member_shopname.coverage" NAME="Unittest TestMember.test01_member_shopname Coverage Results" MODIFIED="1513242274193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/ShopManagement$Unittest_TestRedpacket_test01_creat_redpacket_common.coverage" NAME="Unittest TestRedpacket.test01_creat_redpacket_common Coverage Results" MODIFIED="1513245390018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/ShopManagement$Unittest_TestRedpoint_test05_end_redpoint.coverage" NAME="Unittest TestRedpoint.test05_end_redpoint Coverage Results" MODIFIED="1513242691451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/ShopManagement$Unittests_in_TestRedpoint.coverage" NAME="Unittests in TestRedpoint Coverage Results" MODIFIED="1513069845392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/ShopManagement$Unittest_TestHome_test02_home.coverage" NAME="Unittest TestHome.test02_home Coverage Results" MODIFIED="1511838217782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/ShopManagement$Unittests_in_home.coverage" NAME="Unittests in home Coverage Results" MODIFIED="1512358313286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/ShopManagement$function.coverage" NAME="function Coverage Results" MODIFIED="1512704075585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/package" />
     <SUITE FILE_PATH="coverage/ShopManagement$Unittest_TestHome_test03_test.coverage" NAME="Unittest TestHome.test03_test Coverage Results" MODIFIED="1512207015236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/ShopManagement$Unittest_TestRedpacket_test03_creat_redpacket_share.coverage" NAME="Unittest TestRedpacket.test03_creat_redpacket_share Coverage Results" MODIFIED="1513249903737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/ShopManagement$Unittests_in_Home.coverage" NAME="Unittests in Home Coverage Results" MODIFIED="1512118510696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/ShopManagement$Unittest_TestRedpoint_test03_redpoint_shopname.coverage" NAME="Unittest TestRedpoint.test03_redpoint_shopname Coverage Results" MODIFIED="1513242619711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/ShopManagement$Unittest_TestRedpoint_test_redpoint_shopname__1_.coverage" NAME="Unittest TestRedpoint.test_redpoint_shopname (1) Coverage Results" MODIFIED="1512376537541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
-    <SUITE FILE_PATH="coverage/ShopManagement$Unittest_TestHome_test02_menu.coverage" NAME="Unittest TestHome.test02_menu Coverage Results" MODIFIED="1512118443988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/ShopManagement$Unittest_TestHome_test02_menu.coverage" NAME="Unittest TestHome.test02_menu Coverage Results" MODIFIED="1513305421277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/ShopManagement$Unittest_null_test01_pagetitle.coverage" NAME="Unittest null.test01_pagetitle Coverage Results" MODIFIED="1511786955434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/ShopManagement$allcase_list.coverage" NAME="allcase_list Coverage Results" MODIFIED="1512357919357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ShopManagement$Unittest_TestRedpoint_test_redpoint_status.coverage" NAME="Unittest TestRedpoint.test_redpoint_status Coverage Results" MODIFIED="1512372381099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/ShopManagement$Unittests_in_TestHome.coverage" NAME="Unittests in TestHome Coverage Results" MODIFIED="1512038103079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/ShopManagement$Unittest_TestRedpacket_test02_creat_redpacket_payment.coverage" NAME="Unittest TestRedpacket.test02_creat_redpacket_payment Coverage Results" MODIFIED="1513247702076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/ShopManagement$Unittest_TestRedpoint_test_creat_redpoint.coverage" NAME="Unittest TestRedpoint.test_creat_redpoint Coverage Results" MODIFIED="1512529480668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/ShopManagement$Unittest_TestHome_test01_home.coverage" NAME="Unittest TestHome.test01_home Coverage Results" MODIFIED="1512118417146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/ShopManagement$Unittest_TestRedpoint_test02_redpoint_status.coverage" NAME="Unittest TestRedpoint.test02_redpoint_status Coverage Results" MODIFIED="1513242548359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/ShopManagement$Unittests_in_redpoint.coverage" NAME="Unittests in redpoint Coverage Results" MODIFIED="1512468832308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/ShopManagement$Unittest_TestRedpoint_test4_edit_redpoint.coverage" NAME="Unittest TestRedpoint.test4_edit_redpoint Coverage Results" MODIFIED="1512616162418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/ShopManagement$Unittest_Home_test01_pagetitle.coverage" NAME="Unittest Home.test01_pagetitle Coverage Results" MODIFIED="1511789926061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/ShopManagement$Unittest_TestHome_test01_pagetitle.coverage" NAME="Unittest TestHome.test01_pagetitle Coverage Results" MODIFIED="1511840639185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/ShopManagement$Unittest_TestRedpoint_test01_creat_redpoint.coverage" NAME="Unittest TestRedpoint.test01_creat_redpoint Coverage Results" MODIFIED="1513242493864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/ShopManagement$Unittest_TestRedpacket_test04_end_redpacket.coverage" NAME="Unittest TestRedpacket.test04_end_redpacket Coverage Results" MODIFIED="1513252278868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/ShopManagement$common.coverage" NAME="common Coverage Results" MODIFIED="1511926818361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/package" />
     <SUITE FILE_PATH="coverage/ShopManagement$Unittests_in_memberctl.coverage" NAME="Unittests in memberctl Coverage Results" MODIFIED="1512357782417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/ShopManagement$Unittest_TestRedpoint_test3_creat_redpoint.coverage" NAME="Unittest TestRedpoint.test3_creat_redpoint Coverage Results" MODIFIED="1512616133128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/ShopManagement$Unittest_TestRedpoint_test04_edit_redpoint.coverage" NAME="Unittest TestRedpoint.test04_edit_redpoint Coverage Results" MODIFIED="1513242668006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/ShopManagement$Unittest_TestRedpoint_test_redpoint_status__1_.coverage" NAME="Unittest TestRedpoint.test_redpoint_status (1) Coverage Results" MODIFIED="1512371980913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/ShopManagement$Unittests_in_member.coverage" NAME="Unittests in member Coverage Results" MODIFIED="1512372356456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
-    <SUITE FILE_PATH="coverage/ShopManagement$all_tests.coverage" NAME="all_tests Coverage Results" MODIFIED="1512616214629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ShopManagement$all_tests.coverage" NAME="all_tests Coverage Results" MODIFIED="1513252309676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -45,60 +60,48 @@
       <file leaf-file-name="all_tests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/all_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-              <folding>
-                <element signature="e#47#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-12-07-11_10_14_all_Tests.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/report/2017-12-07-11_10_14_all_Tests.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="function.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package/function.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="92" column="15" lean-forward="false" selection-start-line="92" selection-start-column="15" selection-end-line="92" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-12-07-10_58_24_all_Tests.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/report/2017-12-07-10_58_24_all_Tests.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="member.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/member.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            <state relative-caret-position="271">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="redpoint.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/redpoint.py">
+        <entry file="file://$PROJECT_DIR$/package/redpoint.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+            <state relative-caret-position="271">
+              <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="200" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="redpacket.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package/redpacket.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="148" column="0" lean-forward="true" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test01_home.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_case/test01_home.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="39" column="14" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="46" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test04_redpacket.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_case/test04_redpacket.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1275">
+              <caret line="75" column="11" lean-forward="false" selection-start-line="72" selection-start-column="1" selection-end-line="83" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -107,38 +110,48 @@
       <file leaf-file-name="member.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package/member.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-401">
-              <caret line="137" column="16" lean-forward="false" selection-start-line="137" selection-start-column="16" selection-end-line="137" selection-end-column="16" />
+            <state relative-caret-position="475">
+              <caret line="67" column="24" lean-forward="false" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_case/home.py">
+      <file leaf-file-name="function.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package/function.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+            <state relative-caret-position="126">
+              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="59" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package/common.py">
+      <file leaf-file-name="send_mail.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package/send_mail.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-163">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="340">
+              <caret line="25" column="59" lean-forward="true" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="baidu.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/baidu.py">
+      <file leaf-file-name="test02_member.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_case/test02_member.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="81" selection-end-column="50" />
+            <state relative-caret-position="1071">
+              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="allcase_list.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/allcase_list.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -162,14 +175,21 @@
       <find>generateReport</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/test_case/home.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/all_tests.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/package/member.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/test_case/redpoint.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_case/test03_redpoint.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/package/send_mail.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_case/test04_redpacket.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/package/redpoint.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_case/test01_home.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_case/test02_member.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/data/testdata.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/allcase_list.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/package/function.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/test_case/member.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/package/redpacket.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -188,20 +208,26 @@
         <option value="$PROJECT_DIR$/test_case/memberctl.py" />
         <option value="$PROJECT_DIR$/data/__init__.py" />
         <option value="$PROJECT_DIR$/readme" />
-        <option value="$PROJECT_DIR$/package/__init__.py" />
-        <option value="$PROJECT_DIR$/data/testdata.py" />
-        <option value="$PROJECT_DIR$/report/log.txt" />
-        <option value="$PROJECT_DIR$/allcase_list.py" />
-        <option value="$PROJECT_DIR$/test_case/__init__.py" />
-        <option value="$PROJECT_DIR$/package/function.py" />
         <option value="$PROJECT_DIR$/sendmail.py" />
         <option value="$PROJECT_DIR$/send_mail.py" />
         <option value="$PROJECT_DIR$/package/send_mail.py" />
-        <option value="$PROJECT_DIR$/package/member.py" />
-        <option value="$PROJECT_DIR$/all_tests.py" />
+        <option value="$PROJECT_DIR$/test_case/redpoint.py" />
+        <option value="$PROJECT_DIR$/package/function.py" />
         <option value="$PROJECT_DIR$/test_case/home.py" />
         <option value="$PROJECT_DIR$/test_case/member.py" />
-        <option value="$PROJECT_DIR$/test_case/redpoint.py" />
+        <option value="$PROJECT_DIR$/package/__init__.py" />
+        <option value="$PROJECT_DIR$/test_case/test01_home.py" />
+        <option value="$PROJECT_DIR$/test_case/__init__.py" />
+        <option value="$PROJECT_DIR$/package/redpoint.py" />
+        <option value="$PROJECT_DIR$/package/member.py" />
+        <option value="$PROJECT_DIR$/test_case/test03_redpoint.py" />
+        <option value="$PROJECT_DIR$/data/testdata.py" />
+        <option value="$PROJECT_DIR$/package/redpacket.py" />
+        <option value="$PROJECT_DIR$/test_case/test04_redpacket.py" />
+        <option value="$PROJECT_DIR$/all_tests.py" />
+        <option value="$PROJECT_DIR$/allcase_list.py" />
+        <option value="$PROJECT_DIR$/test_case/test02_member.py" />
+        <option value="$PROJECT_DIR$/report/log.txt" />
       </list>
     </option>
   </component>
@@ -214,7 +240,26 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="706" />
+    <option name="height" value="709" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -231,7 +276,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -289,10 +333,11 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -301,8 +346,12 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/package" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/package" />
+      <recent name="$PROJECT_DIR$/test_case" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.all_tests">
+  <component name="RunManager" selected="Python tests.Unittest TestHome.test02_menu">
     <configuration default="false" name="all_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -321,7 +370,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittest TestRedpoint.test_creat_redpoint" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittest TestRedpacket.test02_creat_redpacket_payment" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -332,9 +381,9 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ShopManagement" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/redpoint.py" />
-      <option name="CLASS_NAME" value="TestRedpoint" />
-      <option name="METHOD_NAME" value="test_creat_redpoint" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/test04_redpacket.py" />
+      <option name="CLASS_NAME" value="TestRedpacket" />
+      <option name="METHOD_NAME" value="test02_creat_redpacket_payment" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -344,7 +393,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittest TestRedpoint.test3_creat_redpoint" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittest TestRedpacket.test03_creat_redpacket_share" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -355,9 +404,9 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ShopManagement" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/redpoint.py" />
-      <option name="CLASS_NAME" value="TestRedpoint" />
-      <option name="METHOD_NAME" value="test3_creat_redpoint" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/test04_redpacket.py" />
+      <option name="CLASS_NAME" value="TestRedpacket" />
+      <option name="METHOD_NAME" value="test03_creat_redpacket_share" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -367,25 +416,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="send_mail" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/package" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ShopManagement" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/package/send_mail.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest TestRedpoint.test4_edit_redpoint" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittest TestRedpacket.test04_end_redpacket" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -396,9 +427,32 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ShopManagement" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/redpoint.py" />
-      <option name="CLASS_NAME" value="TestRedpoint" />
-      <option name="METHOD_NAME" value="test4_edit_redpoint" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/test04_redpacket.py" />
+      <option name="CLASS_NAME" value="TestRedpacket" />
+      <option name="METHOD_NAME" value="test04_end_redpacket" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest TestHome.test02_menu" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ShopManagement" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/test01_home.py" />
+      <option name="CLASS_NAME" value="TestHome" />
+      <option name="METHOD_NAME" value="test02_menu" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -624,18 +678,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.all_tests" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestRedpoint.test_creat_redpoint" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestRedpoint.test3_creat_redpoint" />
-      <item index="3" class="java.lang.String" itemvalue="Python.send_mail" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestRedpoint.test4_edit_redpoint" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestRedpacket.test02_creat_redpacket_payment" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestRedpacket.test03_creat_redpacket_share" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestRedpacket.test04_end_redpacket" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestHome.test02_menu" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.all_tests" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestRedpoint.test4_edit_redpoint" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestRedpoint.test3_creat_redpoint" />
-        <item index="3" class="java.lang.String" itemvalue="Python.send_mail" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestRedpoint.test_creat_redpoint" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest TestHome.test02_menu" />
+        <item index="1" class="java.lang.String" itemvalue="Python.all_tests" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestRedpacket.test04_end_redpacket" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestRedpacket.test03_creat_redpacket_share" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestRedpacket.test02_creat_redpacket_payment" />
       </list>
     </recent_temporary>
   </component>
@@ -653,63 +707,94 @@
       <option name="presentableId" value="Default" />
       <updated>1511778384304</updated>
     </task>
+    <task id="LOCAL-00001" summary="会员红包">
+      <created>1513252933433</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1513252933433</updated>
+    </task>
+    <task id="LOCAL-00002" summary="会员红包case">
+      <created>1513253023683</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1513253023683</updated>
+    </task>
+    <task id="LOCAL-00003" summary="测试">
+      <created>1513304612394</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1513304612394</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_TestRedpoint_test3_creat_redpoint - 2017.12.06 at 16h 11m 29s.xml">
-      <configuration name="Unittest TestRedpoint.test3_creat_redpoint" configurationId="tests" />
+    <history-entry file="Unittest_TestHome_test02_menu - 2017.12.15 at 10h 37m 11s.xml">
+      <configuration name="Unittest TestHome.test02_menu" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestRedpoint_test3_creat_redpoint - 2017.12.06 at 16h 12m 14s.xml">
-      <configuration name="Unittest TestRedpoint.test3_creat_redpoint" configurationId="tests" />
+    <history-entry file="Unittest_TestRedpacket_test02_creat_redpacket_payment - 2017.12.14 at 18h 34m 28s.xml">
+      <configuration name="Unittest TestRedpacket.test02_creat_redpacket_payment" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestRedpoint_test3_creat_redpoint - 2017.12.06 at 16h 12m 56s.xml">
-      <configuration name="Unittest TestRedpoint.test3_creat_redpoint" configurationId="tests" />
+    <history-entry file="Unittest_TestRedpacket_test02_creat_redpacket_payment - 2017.12.14 at 18h 35m 20s.xml">
+      <configuration name="Unittest TestRedpacket.test02_creat_redpacket_payment" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestRedpoint_test3_creat_redpoint - 2017.12.06 at 16h 13m 19s.xml">
-      <configuration name="Unittest TestRedpoint.test3_creat_redpoint" configurationId="tests" />
+    <history-entry file="Unittest_TestRedpacket_test03_creat_redpacket_share - 2017.12.14 at 19h 01m 27s.xml">
+      <configuration name="Unittest TestRedpacket.test03_creat_redpacket_share" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestRedpoint_test3_creat_redpoint - 2017.12.07 at 11h 09m 14s.xml">
-      <configuration name="Unittest TestRedpoint.test3_creat_redpoint" configurationId="tests" />
+    <history-entry file="Unittest_TestRedpacket_test03_creat_redpacket_share - 2017.12.14 at 19h 02m 12s.xml">
+      <configuration name="Unittest TestRedpacket.test03_creat_redpacket_share" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestRedpoint_test4_edit_redpoint - 2017.12.07 at 11h 09m 35s.xml">
-      <configuration name="Unittest TestRedpoint.test4_edit_redpoint" configurationId="tests" />
+    <history-entry file="Unittest_TestRedpacket_test03_creat_redpacket_share - 2017.12.14 at 19h 11m 04s.xml">
+      <configuration name="Unittest TestRedpacket.test03_creat_redpacket_share" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestRedpoint_test_creat_redpoint - 2017.12.06 at 10h 58m 57s.xml">
-      <configuration name="Unittest TestRedpoint.test_creat_redpoint" configurationId="tests" />
+    <history-entry file="Unittest_TestRedpacket_test03_creat_redpacket_share - 2017.12.14 at 19h 12m 03s.xml">
+      <configuration name="Unittest TestRedpacket.test03_creat_redpacket_share" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestRedpoint_test_creat_redpoint - 2017.12.06 at 11h 02m 22s.xml">
-      <configuration name="Unittest TestRedpoint.test_creat_redpoint" configurationId="tests" />
+    <history-entry file="Unittest_TestRedpacket_test04_end_redpacket - 2017.12.14 at 19h 12m 23s.xml">
+      <configuration name="Unittest TestRedpacket.test04_end_redpacket" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestRedpoint_test_creat_redpoint - 2017.12.06 at 11h 03m 02s.xml">
-      <configuration name="Unittest TestRedpoint.test_creat_redpoint" configurationId="tests" />
+    <history-entry file="Unittest_TestRedpacket_test04_end_redpacket - 2017.12.14 at 19h 13m 52s.xml">
+      <configuration name="Unittest TestRedpacket.test04_end_redpacket" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestRedpoint_test_creat_redpoint - 2017.12.06 at 11h 04m 51s.xml">
-      <configuration name="Unittest TestRedpoint.test_creat_redpoint" configurationId="tests" />
+    <history-entry file="Unittest_TestRedpacket_test04_end_redpacket - 2017.12.14 at 19h 51m 33s.xml">
+      <configuration name="Unittest TestRedpacket.test04_end_redpacket" configurationId="tests" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="706" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="709" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2746365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30406505" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30455258" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3419773" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12965964" sideWeight="0.49353796" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3984375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30307943" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39717427" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -718,128 +803,21 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="会员红包" />
+    <MESSAGE value="会员红包case" />
+    <MESSAGE value="测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Library/Python/2.7/site-packages/HTMLTestRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="631" column="21" lean-forward="true" selection-start-line="631" selection-start-column="21" selection-end-line="631" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/utrunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/2017-12-04-11_35_10all_Tests.html" />
-    <entry file="file://$PROJECT_DIR$/readme" />
-    <entry file="file://$PROJECT_DIR$/report/2017-12-04-11_41_12all_Tests.html" />
-    <entry file="file://$PROJECT_DIR$/package/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="232" column="8" lean-forward="false" selection-start-line="232" selection-start-column="8" selection-end-line="232" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/2017-12-04-15_27_38all_Tests.html" />
-    <entry file="file://$PROJECT_DIR$/data/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/testdata.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="93" lean-forward="false" selection-start-line="13" selection-start-column="93" selection-end-line="13" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/2017-12-06-11_29_12all_Tests.html" />
-    <entry file="file://$PROJECT_DIR$/report/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/2017-12-06-15_09_30_all_Tests.html" />
-    <entry file="file://$PROJECT_DIR$/report/2017-12-06-15_24_53_all_Tests.html" />
-    <entry file="file://$PROJECT_DIR$/test_case/sina.py" />
-    <entry file="file://$PROJECT_DIR$/report/2017-12-06-11_34_22all_Tests.html" />
-    <entry file="file://$PROJECT_DIR$/report/2017-12-06-15_35_16_all_Tests.html" />
-    <entry file="file://$PROJECT_DIR$/report/log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/selenium-3.7.0-py2.7.egg/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="307" column="0" lean-forward="false" selection-start-line="307" selection-start-column="0" selection-end-line="307" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/selenium-3.7.0-py2.7.egg/selenium/webdriver/remote/errorhandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="193" column="0" lean-forward="false" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/selenium-3.7.0-py2.7.egg/selenium/webdriver/remote/webelement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/2017-12-06-15_40_11_all_Tests.html" />
-    <entry file="file://$PROJECT_DIR$/report/2017-12-06-15_47_26_all_Tests.html" />
-    <entry file="file://$PROJECT_DIR$/report/2017-12-06-15_57_12_all_Tests.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_case/Assertions.py" />
-    <entry file="file://$PROJECT_DIR$/test_case/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/geckodriver.log" />
-    <entry file="file://$PROJECT_DIR$/image/error_png.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/report/2017-12-06-16_18_02_all_Tests.html" />
     <entry file="file://$PROJECT_DIR$/report/2017-12-06-17_11_45_all_Tests.html" />
     <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/genericpath.py">
@@ -849,43 +827,139 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/report/2017-12-06-18_13_30_all_Tests.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/report/2017-12-06-18_13_30_all_Tests.html" />
     <entry file="file://$PROJECT_DIR$/html/__init__.py" />
     <entry file="file://$PROJECT_DIR$/html/objects.html" />
     <entry file="file://$PROJECT_DIR$/html/inner.html" />
     <entry file="file://$PROJECT_DIR$/html/frame.html" />
-    <entry file="file://$PROJECT_DIR$/allcase_list.py">
+    <entry file="file://$PROJECT_DIR$/report/2017-12-06-18_37_23_all_Tests.html" />
+    <entry file="file://$PROJECT_DIR$/report/2017-12-07-10_52_22_all_Tests.html" />
+    <entry file="file://$PROJECT_DIR$/report/2017-12-07-10_58_24_all_Tests.html" />
+    <entry file="file://$PROJECT_DIR$/report/2017-12-07-11_10_14_all_Tests.html" />
+    <entry file="file://$PROJECT_DIR$/report/2017-12-07-17_00_40_all_Tests.html" />
+    <entry file="file://$PROJECT_DIR$/image/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package/send_mail.py">
+    <entry file="file://$PROJECT_DIR$/data/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#29#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/report/2017-12-06-18_37_23_all_Tests.html">
+    <entry file="file://$PROJECT_DIR$/report/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/report/2017-12-07-10_52_22_all_Tests.html">
+    <entry file="file://$PROJECT_DIR$/report/2017-12-08-10_19_05_all_Tests.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5168">
+          <caret line="304" column="0" lean-forward="false" selection-start-line="298" selection-start-column="8" selection-end-line="304" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/2017-12-11-16_36_31_all_Tests.html" />
+    <entry file="file://$PROJECT_DIR$/report/2017-12-11-16_43_17_all_Tests.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/2017-12-11-16_46_55_all_Tests.html" />
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3111">
+          <caret line="196" column="24" lean-forward="false" selection-start-line="196" selection-start-column="24" selection-end-line="196" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/2017-12-12-17_39_17_all_Tests.html" />
+    <entry file="file://$PROJECT_DIR$/image/error_png.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/2017-12-12-17_59_46_all_Tests.html" />
+    <entry file="file:///Library/Python/2.7/site-packages/selenium-3.7.0-py2.7.egg/selenium/webdriver/remote/webelement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="500" column="0" lean-forward="false" selection-start-line="500" selection-start-column="0" selection-end-line="500" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/2017-12-14-16_45_10_all_Tests.html" />
+    <entry file="file://$PROJECT_DIR$/package/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/utrunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/TheAssertion">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/testdata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="40" column="47" lean-forward="true" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/selenium-3.7.0-py2.7.egg/selenium/webdriver/remote/errorhandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3281">
+          <caret line="193" column="0" lean-forward="false" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/selenium-3.7.0-py2.7.egg/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8381">
+          <caret line="508" column="0" lean-forward="false" selection-start-line="508" selection-start-column="0" selection-end-line="508" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test03_redpoint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2567">
+          <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="160" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/2017-12-14-19_44_29_all_Tests.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/2017-12-15-10_31_06_all_Tests.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -893,84 +967,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/report/2017-12-07-10_58_24_all_Tests.html">
+    <entry file="file://$PROJECT_DIR$/report/log.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/all_tests.py">
+    <entry file="file://$PROJECT_DIR$/test_case/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-          <folding>
-            <element signature="e#47#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/2017-12-07-11_10_14_all_Tests.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_case/baidu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="81" selection-end-column="50" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package/common.py">
+    <entry file="file://$PROJECT_DIR$/test_case/test01_home.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-163">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="663">
+          <caret line="39" column="14" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="46" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test02_member.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test04_redpacket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="75" column="11" lean-forward="false" selection-start-line="72" selection-start-column="1" selection-end-line="83" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allcase_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/all_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/redpoint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="200" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/redpacket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="148" column="0" lean-forward="true" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package/member.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-401">
-          <caret line="137" column="16" lean-forward="false" selection-start-line="137" selection-start-column="16" selection-end-line="137" selection-end-column="16" />
+        <state relative-caret-position="475">
+          <caret line="67" column="24" lean-forward="false" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package/function.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="92" column="15" lean-forward="false" selection-start-line="92" selection-start-column="15" selection-end-line="92" selection-end-column="15" />
+        <state relative-caret-position="126">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="59" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/member.py">
+    <entry file="file://$PROJECT_DIR$/package/send_mail.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/redpoint.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/home.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        <state relative-caret-position="340">
+          <caret line="25" column="59" lean-forward="true" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
           <folding />
         </state>
       </provider>

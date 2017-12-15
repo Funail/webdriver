@@ -9,6 +9,7 @@ import HTMLTestRunner
 import allcase_list
 from package import send_mail
 
+
 #创建测试容器
 testunit=unittest.TestSuite()
 
@@ -34,11 +35,12 @@ runner = HTMLTestRunner.HTMLTestRunner(
         #报告标题
         title = u'商户管理后台测试报告',
         #报告的说明与描述
-        description = u'用例执行情况')
+        description = u'用例执行情况'
+)
 
 #执行用例
 runner.run(testunit)
 fp.close()
 
-# send_mail.send_report(testreport)
+send_mail.send_report(testreport)
 

@@ -1,0 +1,6 @@
+python: can't open file 'all_test.py': [Errno 2] No such file or directory
+.E..........
+Time Elapsed: 0:04:52.692697
+success read case list!
+report/2017-12-15-10_31_06_all_Tests.html
+测试报告已发送!
