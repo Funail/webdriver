@@ -37,7 +37,7 @@ def member_shopname_filter(driver, shopname):
         shopname_btn = driver.find_element_by_xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div/div[1]/input")
         shopname_btn.click()
         time.sleep(2)
-        driver.find_element_by_xpath("/html/body/div[4]/div/div[1]/ul/li[4]/span").click()
+        driver.find_element_by_xpath("/html/body/div[3]/div/div[1]/ul/li[4]/span").click()
 
     else:
         print "会员管理，店铺名称筛选有误！"
@@ -66,3 +66,4 @@ def get_member_shopname_count(driver):
         return len(member_shopname_count)
     else:
         print u"会员数目错误！"
+

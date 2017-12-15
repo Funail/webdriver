@@ -49,6 +49,22 @@ def creat_redstorage(driver,dictory6):
     submit_btn.click()
 
 
+'''会员储值修改'''
+def edit_redstorage(driver,dictory6):
+    # 修改储值
+    mouse = driver.find_element_by_css_selector("#memberstorage > div.el-table__body-wrapper > table > tbody > tr:nth-child(1) > td.el-table_1_column_7 > div > div > span > i")
+    ActionChains(driver).move_to_element(mouse).perform()
+    time.sleep(1)
+
+    redstorage_edit_btn = driver.find_element_by_css_selector("body > ul > li:nth-child(1)")
+    redstorage_edit_btn.click()
+    time.sleep(2)
+
+    point_require_amount = driver.find_element_by_xpath("/html/body/div[1]/div[2]/div[2]/div/div[2]/div[2]/div/form/div[2]/div/div/div/div[1]/input")
+    point_require_amount.clear()
+    point_require_amount.send_keys(dictory2["require_amount"])
+
+
 '''会员储值停止活动'''
 def end_redstorage(driver):
     # 停止集点活动
