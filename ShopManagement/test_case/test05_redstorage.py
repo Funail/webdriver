@@ -69,6 +69,31 @@ class TestRedstorage(unittest.TestCase):
         function.logout(self.driver)
 
 
+    def test03_redstorage_member(self):
+
+        u'''储值会员页面'''
+        function.login_shanghu(self.driver, testdata.login_url, testdata.username, testdata.password)
+        time.sleep(2)
+        function.open_menu(self.driver, u"会员功能", u"会员储值")
+
+        m4_redstorage.redstorage_member(self.driver)
+        time.sleep(2)
+
+        function.logout(self.driver)
+
+    def test04_redstorage_bill(self):
+
+        u'''储值账单页面'''
+        function.login_shanghu(self.driver, testdata.login_url, testdata.username, testdata.password)
+        time.sleep(2)
+        function.open_menu(self.driver, u"会员功能", u"会员储值")
+
+        m4_redstorage.redstorage_bill(self.driver)
+        time.sleep(2)
+
+        function.logout(self.driver)
+
+
     def tearDown(self):
         driver = self.driver
         driver.close()

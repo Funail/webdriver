@@ -83,3 +83,17 @@ def end_redstorage(driver):
     redstorage_confirm_btn.click()
     time.sleep(1)
 
+
+'''储值会员页面'''
+def redstorage_member(driver):
+    # 跳转储值会员页面
+    redstorage_member_btn = driver.find_element_by_css_selector("a[href*='#/main/memberstorage/storagelist")
+    redstorage_member_btn.click()
+    time.sleep(1)
+
+'''储值账单页面'''
+def redstorage_bill(driver):
+    # 跳转储值账单页面
+    redstorage_bill_btn = driver.find_element_by_css_selector("a[href*='#/main/memberstorage/storagebill")
+    redstorage_bill_btn.click()
+    time.sleep(1)
