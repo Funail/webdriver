@@ -37,7 +37,6 @@ class TestMember(unittest.TestCase):
         m1_member.member_shopname_filter(self.driver, u"全部")
         time.sleep(2)
         member_list = common.findXpath(self.driver,"/html/body/div[1]/div[2]/div[2]/div[2]/div[2]/div/div[3]/table/tbody/tr[1]/td[7]/div").text
-        print member_list
         self.assertTrue(member_list != "")
         self.driver.refresh()
         time.sleep(2)
@@ -46,7 +45,6 @@ class TestMember(unittest.TestCase):
         m1_member.member_shopname_filter(self.driver, u"测试员工测试")
         time.sleep(2)
         member_list = common.findXpath(self.driver,"/html/body/div[1]/div[2]/div[2]/div[2]/div[2]/div/div[3]/table/tbody/tr[1]/td[7]/div").text
-        print member_list
         self.assertTrue(member_list != "")
         self.driver.refresh()
         time.sleep(2)
@@ -54,7 +52,6 @@ class TestMember(unittest.TestCase):
         m1_member.member_shopname_filter(self.driver, u"业务员:二级业务员测试无默认")
         time.sleep(2)
         member_list = common.findXpath(self.driver,"/html/body/div[1]/div[2]/div[2]/div[2]/div[2]/div/div[3]/table/tbody/tr[1]/td[7]/div").text
-        print member_list
         self.assertTrue(member_list != "")
         self.driver.refresh()
         time.sleep(2)
@@ -62,7 +59,6 @@ class TestMember(unittest.TestCase):
         m1_member.member_shopname_filter(self.driver, u"测试分店")
         time.sleep(2)
         member_list = common.findXpath(self.driver,"/html/body/div[1]/div[2]/div[2]/div[2]/div[2]/div/div[3]/div/span").text
-        print member_list
         self.assertEqual(member_list,u"暂无数据")
         time.sleep(2)
 
@@ -71,7 +67,7 @@ class TestMember(unittest.TestCase):
 
     def tearDown(self):
         driver = self.driver
-        # driver.close()
+        driver.close()
 
 
 if __name__=='__main__':

@@ -89,19 +89,19 @@ def redpoint_shopname_filter(driver, redpoint_shopname):
         redpoint_shopname_btn = driver.find_element_by_xpath("/html/body/div[1]/div[2]/div[2]/div/div[2]/div[1]/div/div[2]/div/div[1]/input")
         redpoint_shopname_btn.click()
         time.sleep(1)
-        driver.find_element_by_xpath("/html/body/div[4]/div/div[1]/ul/li[2]/span").click()
+        driver.find_element_by_xpath("/html/body/div[4]/div/div[1]/ul/li[4]/span").click()
 
     elif redpoint_shopname == u"业务员:二级业务员测试无默认":
         redpoint_shopname_btn = driver.find_element_by_xpath("/html/body/div[1]/div[2]/div[2]/div/div[2]/div[1]/div/div[2]/div/div[1]/input")
         redpoint_shopname_btn.click()
         time.sleep(1)
-        driver.find_element_by_xpath("/html/body/div[4]/div/div[1]/ul/li[3]/span").click()
+        driver.find_element_by_xpath("/html/body/div[4]/div/div[1]/ul/li[5]/span").click()
 
     elif redpoint_shopname == u"测试员工测试":
         redpoint_shopname_btn = driver.find_element_by_xpath("/html/body/div[1]/div[2]/div[2]/div/div[2]/div[1]/div/div[2]/div/div[1]/input")
         redpoint_shopname_btn.click()
         time.sleep(1)
-        driver.find_element_by_xpath("/html/body/div[4]/div/div[1]/ul/li[4]/span").click()
+        driver.find_element_by_xpath("/html/body/div[4]/div/div[1]/ul/li[6]/span").click()
 
     else:
         print "会员集点，店铺名称筛选有误！"

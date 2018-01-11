@@ -42,6 +42,8 @@ class TestRedstorage(unittest.TestCase):
             self.driver.refresh()
             time.sleep(2)
             m4_redstorage.end_redstorage(self.driver)
+        else:
+            self.driver.refresh()
         self.driver.refresh()
         time.sleep(2)
         m4_redstorage.creat_redstorage(self.driver, testdata.dict6)

@@ -7,8 +7,8 @@ import random
 
 '''大商户登录账号'''
 login_url = "https://sh.qfpay.com"
-username = "14200000060"
-password = "1234567890"
+username = "14200000080"
+password = "123456"
 
 '''会员集点数据'''
 dict1 = {"require_amount":str(random.randint(1,20)),

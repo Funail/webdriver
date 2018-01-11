@@ -78,7 +78,7 @@ class TestRedpoint(unittest.TestCase):
         # 已结束
         m2_redpoint.redpoint_status(self.driver, u"已结束")
         time.sleep(1)
-        self.assertEqual(m2_redpoint.get_redpoint_count(self.driver), 4)
+        self.assertEqual(m2_redpoint.get_redpoint_count(self.driver), 3)
         self.driver.refresh()
         time.sleep(2)
 
@@ -90,7 +90,7 @@ class TestRedpoint(unittest.TestCase):
         time.sleep(2)
         m2_redpoint.redpoint_status(self.driver, u"全部")
         time.sleep(1)
-        self.assertEqual(m2_redpoint.get_redpoint_count(self.driver), end_redpoint_count + 5)
+        self.assertEqual(m2_redpoint.get_redpoint_count(self.driver), end_redpoint_count + 4)
 
         function.logout(self.driver)
 
@@ -111,7 +111,7 @@ class TestRedpoint(unittest.TestCase):
         m2_redpoint.redpoint_status(self.driver, u"已结束")
         m2_redpoint.redpoint_shopname_filter(self.driver, u"测试分店")
         time.sleep(1)
-        self.assertEqual(m2_redpoint.get_redpoint_shopname_count(self.driver), 1)
+        self.assertEqual(m2_redpoint.get_redpoint_shopname_count(self.driver), 0)
         self.driver.refresh()
         time.sleep(2)
 
@@ -125,7 +125,7 @@ class TestRedpoint(unittest.TestCase):
         m2_redpoint.redpoint_status(self.driver, u"已结束")
         m2_redpoint.redpoint_shopname_filter(self.driver, u"全部")
         time.sleep(1)
-        self.assertEqual(m2_redpoint.get_redpoint_shopname_count(self.driver), 4)
+        self.assertEqual(m2_redpoint.get_redpoint_shopname_count(self.driver), 3)
         self.driver.refresh()
         time.sleep(2)
 
@@ -156,6 +156,7 @@ class TestRedpoint(unittest.TestCase):
 
         m2_redpoint.end_redpoint(self.driver)
         end_redpoint_status = common.findCss(self.driver,"#memberredcollect > div.el-table__body-wrapper > table > tbody > tr:nth-child(1) > td.el-table_1_column_4 > div").text
+        time.sleep(1)
         self.assertEqual(end_redpoint_status,u"已终止")
 
         function.logout(self.driver)

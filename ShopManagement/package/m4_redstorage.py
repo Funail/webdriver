@@ -28,7 +28,7 @@ def creat_redstorage(driver,dictory6):
     redstorage_end_time = driver.find_element_by_css_selector("input[placeholder='请选结束时间']")
     redstorage_end_time.click()
     time.sleep(1)
-    driver.find_element_by_css_selector("body > div:nth-child(8) > div.el-picker-panel__body-wrapper > div > div.el-picker-panel__content > table.el-date-table > tbody > tr:nth-child(4) > td.available.today.current").click()
+    driver.find_element_by_css_selector("body > div:nth-child(8) > div.el-picker-panel__body-wrapper > div > div.el-picker-panel__content > table.el-date-table > tbody > tr:nth-child(3) > td.available.today.current").click()
 
     redstorage_store_amount = driver.find_element_by_xpath("/html/body/div[1]/div[2]/div[2]/div/div[2]/div[2]/div/form/div[4]/div/div/div[1]/div/div[1]/input")
     redstorage_store_amount.send_keys(dictory6["store_amount"])

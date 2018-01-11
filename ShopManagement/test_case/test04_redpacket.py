@@ -34,6 +34,8 @@ class TestRedpacket(unittest.TestCase):
 
         if common.findCss(self.driver,"#memberredpacket > div.el-table__body-wrapper > table > tbody > tr > td.el-table_1_column_1 > div"):
             creat_time1 = common.findCss(self.driver,"#memberredpacket > div.el-table__body-wrapper > table > tbody > tr > td.el-table_1_column_1 > div").text
+        else:
+            creat_time1 = "2018-01-11 16:46:23"
         m3_redpacket.creat_redpacket_common(self.driver, testdata.dict3)
         time.sleep(2)
         creat_time2 = common.findCss(self.driver,"#memberredpacket > div.el-table__body-wrapper > table > tbody > tr > td.el-table_1_column_1 > div").text
