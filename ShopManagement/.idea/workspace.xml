@@ -5,14 +5,6 @@
       <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/github_settings.xml" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/ui.lnf.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/testdata.py" afterPath="$PROJECT_DIR$/data/testdata.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package/m1_member.py" afterPath="$PROJECT_DIR$/package/m1_member.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package/m2_redpoint.py" afterPath="$PROJECT_DIR$/package/m2_redpoint.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package/m4_redstorage.py" afterPath="$PROJECT_DIR$/package/m4_redstorage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/test02_member.py" afterPath="$PROJECT_DIR$/test_case/test02_member.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/test03_redpoint.py" afterPath="$PROJECT_DIR$/test_case/test03_redpoint.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/test04_redpacket.py" afterPath="$PROJECT_DIR$/test_case/test04_redpacket.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/test05_redstorage.py" afterPath="$PROJECT_DIR$/test_case/test05_redstorage.py" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/PycharmProjects/ShopManagement/report/log.txt" afterPath="$USER_HOME$/PycharmProjects/ShopManagement/report/log.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -393,6 +385,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="Push.Settings">
+    <excluded-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </excluded-roots>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -780,7 +777,14 @@
       <option name="project" value="LOCAL" />
       <updated>1513304612394</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="更换测试账号，调试脚本">
+      <created>1515663638123</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1515663638123</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -859,7 +863,8 @@
     <MESSAGE value="会员红包" />
     <MESSAGE value="会员红包case" />
     <MESSAGE value="测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试" />
+    <MESSAGE value="更换测试账号，调试脚本" />
+    <option name="LAST_COMMIT_MESSAGE" value="更换测试账号，调试脚本" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
