@@ -6,7 +6,8 @@ sys.setdefaultencoding('utf-8')
 import random
 
 '''大商户登录账号'''
-login_url = "https://sh.qfpay.com"
+login_url = "https://1.sh.qfpay.com"
+# login_url = "https://sh.qfpay.com"
 username = "14200000080"
 password = "123456"
 
