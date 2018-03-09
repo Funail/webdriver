@@ -37,11 +37,21 @@ def get_menu_count(driver):
     menu_count = common.findsCss(driver,"ul.left-nav > li")
     return len(menu_count)
 
-
 '''会员菜单数量'''
 def get_member_menu_count(driver):
     member_menu_count = common.findsCss(driver,"body > div.top_content > div.sidebar > ul > li:nth-child(2) > ul > li")
     return len(member_menu_count)
+
+'''交易管理菜单数量'''
+def get_transctl_menu_count(driver):
+    transctl_menu_count = common.findsCss(driver,"body > div.top_content > div.sidebar > ul > li:nth-child(3) > ul > li")
+    return len(transctl_menu_count)
+
+'''账户信息菜单数量'''
+def get_chainmanage_menu_count(driver):
+    chainmanage_menu_count = common.findsCss(driver,"body > div.top_content > div.sidebar > ul > li:nth-child(6) > ul > li")
+    return len(chainmanage_menu_count)
+
 
 
 '''菜单'''
