@@ -44,6 +44,8 @@ class TestHome(unittest.TestCase):
 
         self.assertEqual(function.get_menu_count(self.driver),6)
         self.assertEqual(function.get_member_menu_count(self.driver),4)
+        self.assertEqual(function.get_transctl_menu_count(self.driver), 2)
+        self.assertEqual(function.get_chainmanage_menu_count(self.driver), 2)
 
         function.logout(self.driver)
 

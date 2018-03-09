@@ -96,7 +96,7 @@ class TestRedstorage(unittest.TestCase):
 
     def tearDown(self):
         driver = self.driver
-        # driver.close()
+        driver.close()
 
 
 if __name__=='__main__':
