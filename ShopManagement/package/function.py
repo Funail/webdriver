@@ -11,11 +11,14 @@ import common
 def login_shanghu(driver,login_url,username,password):
     driver.get(login_url)
     time.sleep(2)
-    name = driver.find_element_by_xpath("/html/body/div/div/form/div[1]/div/div[1]/input")
+    # name = driver.find_element_by_xpath("/html/body/div/div/form/div[1]/div/div[1]/input")
+    name = driver.find_element_by_xpath("/html/body/div/div/form[1]/div[1]/div/div/input")
     name.send_keys(username)
-    pwd = driver.find_element_by_xpath("/html/body/div/div/form/div[2]/div/div[1]/input")
+    # pwd = driver.find_element_by_xpath("/html/body/div/div/form/div[2]/div/div[1]/input")
+    pwd = driver.find_element_by_xpath("/html/body/div/div/form[1]/div[2]/div/div/input")
     pwd.send_keys(password)
-    login_btn = driver.find_element_by_xpath("/html/body/div/div/form/div[3]")
+    # login_btn = driver.find_element_by_xpath("/html/body/div/div/form/div[3]")
+    login_btn = driver.find_element_by_xpath("/html/body/div/div/form[1]/div[3]/span")
     login_btn.click()
 
 
